@@ -2,11 +2,11 @@
 
 // task1
 
-int dateDifference(struct Date d1, struct Date d2) {
+int dateDifference(struct Date* d1, struct Date* d2) {
 	int res1 = 0;
 	int res2 = 0;
-	res1 = (d1.year * 365) + (d1.month * 30) + d1.day;
-	res2 = (d2.year * 365) + (d2.month * 30) + d2.day;
+	res1 = (d1->year * 365) + (d1->month * 30) + d1->day;
+	res2 = (d2->year * 365) + (d2->month * 30) + d2->day;
 	return (res1 - res2);
 }
 

@@ -6,7 +6,7 @@ int main() {
 	DateInp(&d1);
 	struct Date d2;
 	DateInp(&d2);
-	printf("The difference between your dates in days is: %d \n", dateDifference(d1, d2));
+	printf("The difference between your dates in days is: %d \n", dateDifference(&d1, &d2));
 
 	
 	// task2

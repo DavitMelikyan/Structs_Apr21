@@ -8,7 +8,7 @@ struct Date {
     int year;
 };
 
-int dateDifference(struct Date d1, struct Date d2); 
+int dateDifference(struct Date* d1, struct Date* d2); 
 void DateInp(struct Date* d);
 
 // task2
